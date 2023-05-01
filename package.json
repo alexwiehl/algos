@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodesmithLLC/hack-hour-ny-31.git"
+    "url": "git+https://github.com/michaeltraps/algos"
   },
   "main": "index.js",
   "author": "Michael",
