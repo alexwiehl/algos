@@ -12,10 +12,23 @@ fizzbuzz(16);
 
 */
 
-const fizzbuzz = num => {  
-  
+const fizzbuzz = num => { 
+    let arr = [];
+  for (let i = 1; i <= num; i++){
+    if (i % 5 === 0 && i % 3 === 0){
+        arr.push("fizzbuzz");
+    } else if (i % 3 === 0) {
+        arr.push("fizz");
+    } else if (i % 5 === 0){
+        arr.push("buzz");
+    } else {
+        arr.push(i);
+    };
+  };
+  console.log(arr);
 };
 
+fizzbuzz(16);
 
 /*
 
