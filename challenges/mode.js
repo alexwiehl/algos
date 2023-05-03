@@ -12,7 +12,15 @@ mode([7, 5, 8, 8, 2, 5]) -> 8
 */
 
 const mode = array => {
-   
+    const obj = {} 
+   for (let i = 0; i < array.length; i++){
+     if (array[i] === obj[i]){
+            obj[i] += 1;
+        } else if (array[i] !== obj[i]){
+            obj[i] = {i, 1};
+        }
+        console.log(obj);
+   }
     
 }
 

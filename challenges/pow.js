@@ -8,8 +8,10 @@
  */
 
 function pow(base, power) {
-
+ return base ** power;
 };
+
+pow(2,4);
 
 /**
  * Extension: Use recursion to solve the problem in O(n) time complexity -> Linear time complexity

@@ -25,7 +25,7 @@ const fizzbuzz = num => {
         arr.push(i);
     };
   };
-  console.log(arr);
+  return arr;
 };
 
 fizzbuzz(16);
